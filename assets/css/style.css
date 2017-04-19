@@ -43,7 +43,7 @@ html {
 header {
 	background-color: #4aaaa5;
 	padding: 10px 20px 10px 20px;
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-left: 50px;
 	margin-bottom: 0px;
 	float: left;
@@ -67,6 +67,10 @@ nav {
 	text-decoration: none;
 }
 
+.navlink-container {
+	width: 100px;
+	padding: 10px;
+}
 
 section {
 	float: left;
@@ -87,6 +91,10 @@ h3 {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 18px;
+}
+
+a {
+	font-size: 16px;
 }
 
 a:hover {
@@ -228,6 +236,7 @@ textarea {
     aside {
     	width: 95%;
     	float: left;	
+    	text-align: left;
     }
 
     footer {
@@ -253,6 +262,7 @@ textarea {
 
     nav {
     	width: 100%;
+    	text-align: center;
     }
 
     section {
@@ -272,10 +282,19 @@ textarea {
     aside {
     	width: 90%;
     	float: left;
+    	text-align: left;
     }
 
     footer {
     	width: 100%;
+    }
+
+    #name {
+    	text-align: center;
+    }
+
+    .navlink-container {
+    	width: 33%;
     }
 }
 
